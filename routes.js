@@ -70,7 +70,7 @@ router.delete('/deleteEmployee/:index/:id',(req,res)=>{
         res.send(data)
     }).catch((err)=>{
         console.log(err);
-        res.status(500).send({msg:"update unsuccessful"});
+        res.status(500).send({msg:"delete unsuccessful"});
     });
 });
 
